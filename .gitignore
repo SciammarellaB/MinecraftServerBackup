@@ -1,0 +1,16 @@
+cd /home/the_admin/server/docker/mineserver
+
+cat > .gitignore <<'EOF'
+# Ignora tudo na raiz, exceto os itens liberados abaixo
+/*
+!/.gitignore
+!/data/
+
+# Dentro de data, permite apenas o mundo
+/data/*
+!/data/The_Game/
+
+# Arquivos temporários que não precisam ser restaurados
+/data/The_Game/session.lock
+.DS_Store
+EOF
