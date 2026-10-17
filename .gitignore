@@ -4,6 +4,7 @@ cat > .gitignore <<'EOF'
 # Ignora tudo na raiz, exceto os itens liberados abaixo
 /*
 !/.gitignore
+!/compose.yml
 !/data/
 
 # Dentro de data, permite apenas o mundo

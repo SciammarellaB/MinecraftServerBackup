@@ -1,0 +1,52 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server:latest
+    restart: unless-stopped
+    stop_grace_period: 2m
+
+    ports:
+      - "192.168.15.5:25565:25565/tcp"
+      - "100.64.250.3:25565:25565/tcp"
+
+    environment:
+      EULA: "TRUE"
+      TYPE: "VANILLA"
+      VERSION: "26.3"
+      MEMORY: "8G"
+      LEVEL: "The_Game"
+      ONLINE_MODE: "TRUE"
+      MOTD: "The_Game - Servidor da galera"
+
+      # Sobrevivência na LAN
+      DIFFICULTY: "normal"
+      MODE: "survival"
+      MAX_PLAYERS: "10"
+      PVP: "FALSE"
+      SPAWN_PROTECTION: "0"
+
+      # Distâncias em chunks
+      VIEW_DISTANCE: "16"
+      SIMULATION_DISTANCE: "8"
+
+      # Inatividade em minutos; pausa em segundos
+      # PLAYER_IDLE_TIMEOUT: "15"
+      PAUSE_WHEN_EMPTY_SECONDS: "60"
+
+      # Substitua pelos nomes reais dos perfis Java
+      # ENABLE_WHITELIST: "TRUE"
+      # ENFORCE_WHITELIST: "TRUE"
+      # WHITELIST: "SEU_NICK,NICK_DO_AMIGO"
+      # OPS: "SEU_NICK"
+
+      # Aplica estas regras a cada inicialização
+      # ENABLE_RCON: "TRUE"
+      # RCON_CMDS_STARTUP: |-
+      #   gamerule minecraft:keep_inventory true
+      #   gamerule minecraft:players_sleeping_percentage 0
+      #   gamerule minecraft:spawn_phantoms false
+      #   gamerule minecraft:fire_spread_radius_around_player 0
+      #   gamerule minecraft:advance_time true
+      #   gamerule minecraft:advance_weather true
+
+    volumes:
+      - ./data:/data
