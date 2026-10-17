@@ -9,15 +9,19 @@
     "criteria": {
       "minecraft:cold_ocean": "2026-10-06 15:28:57 +0000",
       "minecraft:flower_forest": "2026-10-12 02:46:26 +0000",
+      "minecraft:dappled_forest": "2026-10-17 18:02:25 +0000",
       "minecraft:beach": "2026-10-06 15:52:52 +0000",
       "minecraft:dark_forest": "2026-10-11 01:06:15 +0000",
       "minecraft:forest": "2026-10-06 15:22:13 +0000",
       "minecraft:taiga": "2026-10-07 15:47:10 +0000",
       "minecraft:river": "2026-10-06 15:27:21 +0000",
       "minecraft:stony_shore": "2026-10-06 15:22:18 +0000",
+      "minecraft:snowy_plains": "2026-10-17 17:43:39 +0000",
       "minecraft:deep_cold_ocean": "2026-10-07 15:56:07 +0000",
+      "minecraft:frozen_ocean": "2026-10-17 17:42:55 +0000",
       "minecraft:ocean": "2026-10-11 01:02:47 +0000",
       "minecraft:sunflower_plains": "2026-10-12 02:44:03 +0000",
+      "minecraft:meadow": "2026-10-17 18:05:39 +0000",
       "minecraft:birch_forest": "2026-10-11 01:08:24 +0000",
       "minecraft:plains": "2026-10-06 15:47:33 +0000",
       "minecraft:pale_garden": "2026-10-11 01:07:06 +0000"
@@ -543,16 +547,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2026-10-16 23:10:02 +0000",
-      "minecraft:cave_spider": "2026-10-08 15:37:36 +0000",
       "minecraft:skeleton": "2026-10-07 15:58:47 +0000",
-      "minecraft:piglin": "2026-10-14 16:03:18 +0000",
       "minecraft:phantom": "2026-10-15 02:56:36 +0000",
+      "minecraft:wither_skeleton": "2026-10-16 23:04:59 +0000",
+      "minecraft:cave_spider": "2026-10-08 15:37:36 +0000",
+      "minecraft:piglin": "2026-10-14 16:03:18 +0000",
       "minecraft:magma_cube": "2026-10-14 15:42:53 +0000",
       "minecraft:spider": "2026-10-06 15:36:36 +0000",
-      "minecraft:wither_skeleton": "2026-10-16 23:04:59 +0000",
       "minecraft:zombie": "2026-10-06 16:00:28 +0000",
       "minecraft:creeper": "2026-10-06 16:02:01 +0000",
       "minecraft:drowned": "2026-10-08 15:17:18 +0000",
+      "minecraft:zombie_villager": "2026-10-17 17:30:35 +0000",
       "minecraft:slime": "2026-10-09 15:49:38 +0000"
     },
     "done": false
@@ -1312,6 +1317,7 @@
       "rotten_flesh": "2026-10-09 15:24:19 +0000",
       "cooked_mutton": "2026-10-08 15:33:44 +0000",
       "melon_slice": "2026-10-12 19:00:55 +0000",
+      "pumpkin_pie": "2026-10-17 20:49:20 +0000",
       "carrot": "2026-10-15 03:01:19 +0000"
     },
     "done": false
@@ -3067,6 +3073,198 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2026-10-17 00:43:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-10-17 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_planks": {
+    "criteria": {
+      "has_logs": "2026-10-17 18:03:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_wood": {
+    "criteria": {
+      "has_log": "2026-10-17 18:03:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/black_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/brown_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/cyan_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/green_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/lime_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/magenta_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/orange_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/pink_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/purple_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/red_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/yellow_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-10-17 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-10-17 18:48:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-10-17 18:48:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_chestplate_dyed": {
+    "criteria": {
+      "has_leather_chestplate": "2026-10-17 21:11:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_leggings_dyed": {
+    "criteria": {
+      "has_leather_leggings": "2026-10-17 21:11:05 +0000"
     },
     "done": true
   },
