@@ -547,6 +547,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2026-10-16 23:10:02 +0000",
+      "minecraft:pillager": "2026-10-18 18:43:36 +0000",
       "minecraft:skeleton": "2026-10-07 15:58:47 +0000",
       "minecraft:phantom": "2026-10-15 02:56:36 +0000",
       "minecraft:wither_skeleton": "2026-10-16 23:04:59 +0000",
@@ -3271,6 +3272,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2026-10-17 22:10:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-10-18 18:43:39 +0000"
     },
     "done": true
   },
