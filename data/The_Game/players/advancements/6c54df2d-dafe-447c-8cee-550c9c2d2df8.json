@@ -3256,15 +3256,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_leggings_dyed": {
+    "criteria": {
+      "has_leather_leggings": "2026-10-17 21:11:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_chestplate_dyed": {
     "criteria": {
       "has_leather_chestplate": "2026-10-17 21:11:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/leather_leggings_dyed": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "has_leather_leggings": "2026-10-17 21:11:05 +0000"
+      "enchanted_item": "2026-10-17 22:10:54 +0000"
     },
     "done": true
   },
