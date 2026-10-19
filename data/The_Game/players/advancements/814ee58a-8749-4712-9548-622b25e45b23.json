@@ -1013,6 +1013,7 @@
       "minecraft:witch": "2026-10-17 12:56:44 +0000",
       "minecraft:wither_skeleton": "2026-10-16 23:05:30 +0000",
       "minecraft:ghast": "2026-10-16 23:59:34 +0000",
+      "minecraft:piglin": "2026-10-19 17:43:32 +0000",
       "minecraft:enderman": "2026-10-18 22:16:38 +0000",
       "minecraft:magma_cube": "2026-10-16 23:28:20 +0000",
       "minecraft:spider": "2026-10-16 22:18:47 +0000",
@@ -1210,12 +1211,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2026-10-19 18:31:36 +0000",
       "minecraft:soul_sand_valley": "2026-10-17 00:09:51 +0000",
       "minecraft:nether_wastes": "2026-10-17 16:30:15 +0000",
       "minecraft:basalt_deltas": "2026-10-16 22:53:31 +0000",
       "minecraft:warped_forest": "2026-10-17 16:37:31 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -3179,6 +3181,60 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2026-10-18 21:59:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-10-19 17:53:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2026-10-19 18:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2026-10-19 18:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_boots_dyed": {
+    "criteria": {
+      "has_leather_boots": "2026-10-19 16:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_helmet_dyed": {
+    "criteria": {
+      "has_leather_helmet": "2026-10-19 16:39:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_leggings_dyed": {
+    "criteria": {
+      "has_leather_leggings": "2026-10-19 16:39:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-10-19 18:40:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-10-19 17:53:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-10-19 17:53:52 +0000"
     },
     "done": true
   },
