@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2026-10-06 16:03:20 +0000",
       "minecraft:forest": "2026-10-06 15:44:34 +0000",
+      "minecraft:taiga": "2026-10-29 15:47:31 +0000",
       "minecraft:river": "2026-10-09 15:36:50 +0000",
       "minecraft:stony_shore": "2026-10-06 15:42:17 +0000",
       "minecraft:plains": "2026-10-16 02:44:52 +0000"
@@ -944,6 +945,8 @@
       "cooked_chicken": "2026-10-17 05:16:43 +0000",
       "cooked_mutton": "2026-10-07 15:55:51 +0000",
       "potato": "2026-10-28 15:57:27 +0000",
+      "cooked_cod": "2026-10-29 15:43:55 +0000",
+      "sweet_berries": "2026-10-29 15:50:38 +0000",
       "cooked_beef": "2026-10-15 15:58:02 +0000",
       "cooked_salmon": "2026-10-06 16:20:20 +0000"
     },
@@ -1738,6 +1741,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:soul_sand_valley": "2026-10-15 02:12:49 +0000",
+      "minecraft:nether_wastes": "2026-10-29 15:56:17 +0000",
       "minecraft:basalt_deltas": "2026-10-14 15:46:59 +0000"
     },
     "done": false
@@ -3188,6 +3192,48 @@
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2026-10-28 16:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-10-29 15:36:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_planks": {
+    "criteria": {
+      "has_logs": "2026-10-29 15:36:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/poplar_wood": {
+    "criteria": {
+      "has_log": "2026-10-29 15:36:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2026-10-29 15:36:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2026-10-29 15:36:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2026-10-29 15:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-10-29 15:36:27 +0000"
     },
     "done": true
   },
