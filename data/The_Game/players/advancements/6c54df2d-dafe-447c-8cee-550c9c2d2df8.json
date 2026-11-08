@@ -564,12 +564,14 @@
       "minecraft:pillager": "2026-10-18 18:43:36 +0000",
       "minecraft:skeleton": "2026-10-07 15:58:47 +0000",
       "minecraft:phantom": "2026-10-15 02:56:36 +0000",
+      "minecraft:zombified_piglin": "2026-11-08 19:24:30 +0000",
       "minecraft:witch": "2026-11-08 04:42:56 +0000",
       "minecraft:wither_skeleton": "2026-10-16 23:04:59 +0000",
       "minecraft:ghast": "2026-10-29 15:42:36 +0000",
       "minecraft:hoglin": "2026-11-08 02:37:22 +0000",
       "minecraft:cave_spider": "2026-10-08 15:37:36 +0000",
       "minecraft:piglin": "2026-10-14 16:03:18 +0000",
+      "minecraft:enderman": "2026-11-08 18:28:29 +0000",
       "minecraft:magma_cube": "2026-10-14 15:42:53 +0000",
       "minecraft:spider": "2026-10-06 15:36:36 +0000",
       "minecraft:zombie": "2026-10-06 16:00:28 +0000",
@@ -1329,6 +1331,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2026-11-08 18:39:25 +0000",
       "apple": "2026-10-08 15:39:26 +0000",
       "bread": "2026-10-08 15:29:23 +0000",
       "cooked_chicken": "2026-10-16 23:32:27 +0000",
@@ -3433,9 +3436,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/place_dried_ghast_in_water": {
+  "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
-      "place_dried_ghast_in_water": "2026-11-08 05:00:12 +0000"
+      "has_nether_brick": "2026-11-08 03:47:57 +0000"
     },
     "done": true
   },
@@ -3445,9 +3448,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-11-08 03:50:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
       "has_bamboo": "2026-11-08 04:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-11-08 04:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-11-08 04:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2026-11-08 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2026-11-08 04:40:48 +0000"
     },
     "done": true
   },
@@ -3460,12 +3493,6 @@
   "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-11-08 04:58:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_bricks": {
-    "criteria": {
-      "has_nether_brick": "2026-11-08 03:47:57 +0000"
     },
     "done": true
   },
@@ -3541,18 +3568,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2026-11-08 03:50:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/scaffolding": {
-    "criteria": {
-      "has_bamboo": "2026-11-08 04:37:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-11-08 04:58:40 +0000"
@@ -3571,21 +3586,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cookie": {
+  "minecraft:husbandry/place_dried_ghast_in_water": {
     "criteria": {
-      "has_cocoa": "2026-11-08 04:40:48 +0000"
+      "place_dried_ghast_in_water": "2026-11-08 05:00:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/brown_dye": {
+  "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
-      "has_cocoa_beans": "2026-11-08 04:40:48 +0000"
+      "has_tripwire_hook": "2026-11-08 19:07:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
+  "minecraft:adventure/ol_betsy": {
     "criteria": {
-      "has_bamboo": "2026-11-08 04:37:35 +0000"
+      "shot_crossbow": "2026-11-08 19:20:23 +0000"
     },
     "done": true
   },
