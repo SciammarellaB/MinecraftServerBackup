@@ -3604,5 +3604,23 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2026-11-15 17:02:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2026-11-15 17:04:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2026-11-15 17:23:58 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 5023
 }
