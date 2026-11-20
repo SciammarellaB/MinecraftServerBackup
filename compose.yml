@@ -18,7 +18,7 @@ services:
       MOTD: "The_Game - Servidor da galera"
 
       # Sobrevivência na LAN
-      DIFFICULTY: "normal"
+      DIFFICULTY: "hard"
       MODE: "survival"
       MAX_PLAYERS: "10"
       PVP: "FALSE"
