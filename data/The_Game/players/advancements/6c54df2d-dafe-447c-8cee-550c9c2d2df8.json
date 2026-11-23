@@ -3622,5 +3622,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/straw_bed": {
+    "criteria": {
+      "has_hay_block": "2026-11-23 03:15:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2026-11-23 03:15:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 5023
 }
